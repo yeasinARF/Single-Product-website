@@ -1,0 +1,800 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.FirstContainer {
+    background-color: rgb(19, 18, 18);
+}
+.CircleContainer1 img {
+    position:absolute;
+    top:-15%;
+    left:-15%;
+    height:auto ;
+    width: 40%;
+   
+   
+    
+    
+    
+}
+.WatchText h1{
+    font-family: 'Righteous', cursive;
+   
+}
+.SpanText{
+    padding-left: 20px;
+    color: rgb(111, 57, 173);
+}
+.SecondContainer{
+    background-color:rgb(238, 234, 234) ;
+}
+.SeconContainerText{
+    font-size:3.2rem ;
+    font-weight: 800;
+}
+.WatchHoover  .card {
+    transition: all 0.4s linear;
+    border: none;
+}
+.WatchHoover .card:hover img{
+    opacity: 0.3;
+}
+.WatchHoover  .card:hover .MainZoomClass{
+    display: block;
+}
+
+.WatchHoover  .card:hover{
+    background-color: rgb(111, 57, 173);
+    transform: scale(1.1);
+    border: none;
+
+
+}
+.MainZoomClass{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+   
+    
+
+}
+.iconClassSearchZoom{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color: white;
+  
+   
+    
+}
+.FirstDRPITEM{
+    
+    
+    display: none;
+}
+.SIcon1{
+    transition: all 0.6s linear;
+}
+.SIcon1:hover .FirstDRPITEM{
+   
+    display: block;
+   
+
+}
+.SecondDRPITEM{
+   
+    display: none;
+
+
+}
+.SIcon2{
+    transition: all 0.6s linear;
+}
+.SIcon2:hover .SecondDRPITEM{
+    display: block;
+
+}
+.ThirdDRPITEM{
+   
+    display: none;
+
+
+}
+.SIcon3{
+    transition: all 0.6s linear;
+}
+.SIcon3:hover .ThirdDRPITEM{
+    display: block;
+
+}
+.FourDRPITEM{
+    
+    display: none;
+
+
+}
+.SIcon4{
+    transition: all 0.6s linear;
+}
+.SIcon4:hover .FourDRPITEM{
+    display: block;
+
+}
+.FiveDRPITEM{
+    
+    display: none;
+
+
+}
+.SIcon5{
+    transition: all 0.6s linear;
+}
+.SIcon5:hover .FiveDRPITEM{
+    display: block;
+
+}
+.FirstClass{
+    transition: all 0.2s ease-in-out;
+}
+.FirstClass:hover{
+    transform: translateX(10px);
+}
+.SecondClass{
+    transition: all 0.2s ease-in-out;
+}
+.SecondClass:hover{
+    transform: translateX(10px);
+}
+.ThirdClass{
+    transition: all 0.2s ease-in-out;
+}
+.ThirdClass:hover{
+    transform: translateX(10px);
+}
+.Watch-Mobile{
+    transition: all 0.4s ease-in-out;
+   
+}
+.Watch-Mobile:hover img{
+    transform: skewY(-4deg);
+    
+}
+.PercentText{
+    padding-left: 60%;
+    font-weight: 600;
+}
+
+.outerBox1{
+    max-width:300px;
+    height: 6px;
+    background-color: rgb(238, 230, 230);
+    border-radius: 10px;
+}
+.InnerBox1{
+    height: 6px;
+    width: 30%;
+    background-color: rgb(118, 36, 212) ;
+    border-radius: 10px;
+
+}
+.outerBox2{
+    max-width:300px;
+    height: 6px;
+    background-color: rgb(238, 230, 230);
+    border-radius: 10px;
+}
+.InnerBox2{
+    height: 6px;
+    width: 80%;
+    background-color: rgb(118, 36, 212) ;
+    border-radius: 10px;
+
+}
+.outerBox3{
+    max-width:300px;
+    height: 6px;
+    background-color: rgb(238, 230, 230);
+    border-radius: 10px;
+}
+.InnerBox3{
+    height: 6px;
+    width: 60%;
+    background-color: rgb(118, 36, 212) ;
+    border-radius: 10px;
+
+}
+.HeadingText{
+    font-size: 3rem;
+}
+.playButton{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.6s linear;
+    cursor: pointer;
+}
+
+.Video-player{
+    position: absolute;
+    top: 0%;
+    display: none;
+    
+}
+.Video-player:focus{
+    outline: none;
+}
+
+.buTton{
+    height: 60px;
+    width: 150px;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid rgb(89, 29, 202);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2px;
+    word-spacing:1px ;
+    text-transform: uppercase;
+
+}
+.PriceClass .card{
+    box-shadow: 1px 1px 20px 2px rgb(131, 129, 129);
+    border-radius: 20px;
+    
+
+}
+
+.PriceClass h3{
+    font-family: 'Abril Fatface', cursive;
+}
+.PriceClass h2{
+    font-family: 'Abril Fatface', cursive;
+}
+.ReviewClass .card{
+    border: none;
+    
+    
+}
+
+.ReviewText h3{
+    font-family: 'Abril Fatface', cursive;
+   
+}
+.ReviewClass h5{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    word-spacing: 1px;
+}
+
+.SocialIcon  .fa-facebook-f{
+    color: #4267B2;
+}
+.SocialIcon  .fa-instagram{
+    color: #e7562a;
+}
+.SocialIcon  .fa-github{
+    color: #e12ae7;
+}
+.SocialIcon  .fa-linkedin-in{
+    color: rgb(121, 101, 248);
+
+}
+.SocialIcon div{
+    width:40px ;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right:15px;
+    padding-top:4px;
+    padding-left: 2px;
+    box-shadow: 3px 3px 5px 2px rgb(119, 12, 129);
+    
+   
+    transition: all 0.4s linear;
+}
+.SocialIcon div:hover{
+    width:40px ;
+    height: 40px;
+    
+    transform: scale(1.1);
+
+    
+}
+
+@media(min-width:2500px){
+    .CircleContainer1{
+        display: none;
+    }
+}
+@media(min-width:1200px){
+    .GroupWatch img{
+        width:100%;
+    }
+    
+}
+@media(min-width:992px){
+    .GroupWatch img{
+        width:100%;
+    }
+    
+}
+@media(max-width:991px){
+
+    .GroupWatch img{
+        width:100%;
+        
+    }
+    
+}
+@media(max-width:767px){
+    .GroupWatch img{
+        width:100%;
+        
+    }
+    
+}
+@media(width:826px) and (height:380px){
+    .sideBar{
+        display: none;
+    }
+}
+@media(width:992px) and (height:456px){
+    .sideBar{
+        display: none;
+    }
+}
+
+
+
+@media(min-width:768px){
+    #myCarousel-indicators button{
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(111, 57, 173);
+        
+        
+        
+        margin-right: 8px;
+        padding: 1.5px;
+    }
+    .CarasoulClass1{
+        position: absolute;
+        bottom: -20%;
+        left: -88%;
+    
+    }
+    .MobileDevice{
+        display: none;
+    }
+    .SmallMobileDevice{
+        display: none;
+    }
+    .PriceClass img{
+        margin-top: -30%;
+    }
+    .PriceClass .card {
+        transition: all 0.6s linear;
+    }
+    .PriceClass .card:hover{
+        transform: scale(1.1);
+    }
+
+}
+@media(max-width:767px){
+    #myCarousel-indicators button{
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(111, 57, 173);
+        
+        
+        
+        margin-right: 8px;
+        padding: 1.5px;
+    }
+    .CarasoulClass1{
+        position: absolute;
+        bottom: -30%;
+        left: -88%;
+    
+    }
+    .MobileDevice{
+        display: none;
+    }
+    .SmallMobileDevice{
+        display: none;
+    }
+
+}
+@media(max-width:870px){
+    .sideBar{
+        display: none;
+    }
+}
+
+@media(max-width:649px){
+    #myCarousel-indicators button{
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(111, 57, 173);
+        
+        
+        
+        margin-right: 8px;
+        padding: 1.5px;
+    }
+    .CarasoulClass2{
+        position: absolute;
+        bottom: -35%;
+        
+    
+    }
+    .MobileDevice{
+        display: block;
+    }
+    .Non-MobileDevice{
+        display: none;
+    }
+    .SmallMobileDevice{
+        display: none;
+    }
+    .PercentText{
+        padding-left: 60vw;
+    }
+
+}
+@media(max-width:480px){
+    #myCarousel-indicators button{
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(111, 57, 173);
+        
+        
+        
+        margin-right: 8px;
+        padding: 1.5px;
+    }
+    .CarasoulClass2{
+        position: absolute;
+        bottom: -15%;
+        
+    
+    }
+    .MobileDevice{
+        display: none;
+    }
+    .Non-MobileDevice{
+        display: none;
+    }
+    .SmallMobileDevice{
+        display: block;
+    }
+
+}
+
+
+
+
+@media (min-width:1400px){
+    .watchClass img{
+        height:820px; width:600px
+    }
+    .WatchText h1{
+        font-size: 5.8rem;
+    }
+    .buyButton{
+        display: none;
+    }
+    .BuyButton2 button{
+        width:150px;
+        height: 45px;
+        background-color: #8B64FA;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        word-spacing:1.5px ;
+        transition: all 0.6s linear;
+        padding-right:25px ;
+    }
+    .BuyButton2 button:hover{
+        background-color: #AB66E3;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color:white;
+        padding-right:25px ;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .navbar{
+        background-color:rgba(19, 18, 18,0.7);
+    }
+    
+}
+
+    
+@media (min-width:992px) and (max-width:1399px)
+{
+    .buyButton{
+        display: none;
+    }
+    
+    .BuyButton2 button{
+        width:150px;
+        height: 45px;
+        background-color: #8B64FA;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        word-spacing:1.5px ;
+        transition: all 0.6s linear;
+        padding-right:25px ;
+    }
+    .BuyButton2 button:hover{
+        background-color: #AB66E3;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color:white;
+        padding-right:25px ;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .navbar{
+        background-color:rgba(19, 18, 18,0.7);
+    }
+    .WatchText h1{
+        font-size: 4.8rem;
+    }
+    
+    
+    
+    
+}
+
+
+
+@media(max-width:1024px) and (min-width:992px){
+    .CircleContainer1 img{
+        width:53%;
+    }
+
+}
+
+
+@media (max-width:991px)
+{
+    .navbar-collapse{
+        background-color: black;
+        margin-top: 10px;
+        
+        
+    }
+    .navbar-collapse ul{
+        text-align: center;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color:white;
+        
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .buyButton{
+        display: block;
+        padding-bottom:20px ;
+    }
+    .buyButton button{
+        width:150px;
+        height: 45px;
+        background-color: #8B64FA;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        word-spacing:1.5px ;
+        transition: all 0.6s linear;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .buyButton button:hover{
+        background-color: #AB66E3;
+    }
+    .shoppinCart{
+        margin-top: 20px;
+    }
+    .BuyButton2{
+        display: none;
+        
+    }
+    .navbar-nav{
+        padding-top: 20px;
+        
+    }
+    .navbar{
+        background-color:rgba(19, 18, 18,0.8);
+    }
+    .WatchText h1{
+        font-size: 3.6rem;
+    }
+    .SpanText{
+        padding-left: 15px;
+    }
+    .CircleContainer1 img{
+        width:65%;
+    }
+    
+    
+}
+
+@media (max-width:970px) and (min-width:450px)
+{
+    .CircleContainer1 img {
+        position:absolute;
+        top:-20%;
+        left:-25%;
+        height:auto ;
+       
+        
+        
+        
+    }
+}
+@media (min-width:768px)
+
+{
+    .navbar-brand{
+        padding-left:50px;
+    }
+    .BuyButton2 {
+        padding-right:50px;
+    }
+    
+
+}
+@media (max-width:310px){
+    .CircleContainer1 img {
+       
+        top:-10%;
+        
+       
+        
+        
+        
+    }
+}
+@media (max-width:767px)
+{
+    
+    
+    .watchClass{
+        text-align:center ;
+       
+    }
+    
+   
+    .WatchText{
+        padding-left: 25px;
+    }
+    .navbar-brand{
+        padding-left: 15px;
+    }
+    .SeconContainerText{
+        font-size:3rem ;
+        
+    }
+   
+}
+@media(max-width:680px){
+    .CircleContainer1 img{
+        width:65%;
+    }
+}
+@media(max-width:580px){
+    .CircleContainer1 img{
+        width:70%;
+    }
+}
+@media(max-width:500px){
+    .CircleContainer1 img{
+        width:75%;
+    }
+    .SeconContainerText{
+        font-size:2.8rem ;
+        
+    }
+    
+}
+@media(min-width:401px){
+    .watchClass img{
+        height:420px; width:320px
+    }
+   
+
+}
+@media (max-width:400px){
+    .watchClass img{
+        height:290px; width:290px
+    }
+    .WatchText h1{
+        font-size: 2.8rem;
+    }
+    .CircleContainer1 img{
+        width:85%;
+    }
+}
+@media (max-width:360px)
+{
+    .SeconContainerText{
+        font-size:2.2rem ;
+        
+    }
+    .HeadingText{
+        font-size: 2.7rem;
+    }
+
+}
+@media (max-width:330px){
+    .CarasoulClass2{
+        position: absolute;
+        bottom: -23%;
+        
+    
+    }
+}
+@media (max-width:315px){
+    .watchClass img{
+        height:250px; width:250px
+    }
+    .WatchText h1{
+        font-size: 2.2rem;
+    }
+    .SeconContainerText{
+        font-size:2rem ;
+        
+    }
+    .HeadingText{
+        font-size: 2.4rem;
+    }
+   
+}
+@media (max-width:267px){
+    .watchClass img{
+        height:190px; width:190px
+    }
+    .WatchText h1{
+        font-size: 1.5rem;
+    }
+    .SeconContainerText{
+        font-size:1.8rem ;
+        
+    }
+}
+
